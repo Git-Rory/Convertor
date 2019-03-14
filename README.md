@@ -1,6 +1,12 @@
 # Convertor
 A short python CLI script that converts units!
 
+# Planned updates
+
+[] More things to convert (Area, Data Transfer Rate, Digital Storage, Energy, Frequency, Fuel Economy, Plane Angle, Pressure, Speed, Temperature, Time, Volume)
+[] Update Mass Conversion (miligram, microgram, imperial ton, us ton, stone, ounce)
+[] Update Length Conversion (micrometre, nanometre, mile, yard, foot, inch, nautical mile)
+
 # Prerequisites
 
 1) [IDLE 3.7.0](https://www.python.org/downloads/release/python-370/)
