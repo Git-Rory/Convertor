@@ -1,7 +1,3 @@
-import math
-import time
-import tkinter
-
 selector = 0
 unit1 = 0
 unit2 = 0
@@ -14,7 +10,7 @@ selector = input("Which category would you like to convert? we support (l)ength 
 
 if selector == "l":
 
-  print("We can convert using the units; mm, cm, m, km")
+  print("We can convert using the units; mm, cm, m, km / μg, mg ")
   unit1 = input("Which unit would you like to convert from: ")
 
   unit2 = input("Which unit would you like to convert to: ")
