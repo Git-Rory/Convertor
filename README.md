@@ -3,11 +3,11 @@ A short python CLI script that converts units!
 
 # Prerequisites
 
-1) (IDLE 3.7.0)[https://www.python.org/downloads/release/python-370/]
+1) [IDLE 3.7.0](https://www.python.org/downloads/release/python-370/)
 
 # Built with
 
-1) (IDLE 3.7.0)[https://www.python.org/downloads/release/python-370/]
+1) [IDLE 3.7.0](https://www.python.org/downloads/release/python-370/)
 
 ## Authors
 
@@ -19,4 +19,4 @@ This project is licensed under the Mozilla Public License Version 2.0 - see the 
 
 # Acknowledgments
 
-* (W3Schools)[https://www.w3schools.com/python/]
+* [W3Schools](https://www.w3schools.com/python/)
