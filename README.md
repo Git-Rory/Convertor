@@ -1,5 +1,8 @@
 # Convertor
-A short python CLI script that converts units!
+A short python CLI script that converts units! Currently supports:
+
+- [ ] Length - (mm, cm, m, km)
+- [ ] Weight - (lbs, tn, g, kg, ug, mg)
 
 # Planned updates
 
