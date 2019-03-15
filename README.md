@@ -3,7 +3,7 @@ A short python CLI script that converts units!
 
 # Planned updates
 
-- [ ] Update Mass Conversion (miligram, microgram, imperial ton, us ton, stone, ounce)
+- [ ] Update Mass Conversion (imperial ton, us ton, stone, ounce)
 - [ ] Update Length Conversion (micrometre, nanometre, mile, yard, foot, inch, nautical mile)
 - [ ] More things to convert (Area, Data Transfer Rate, Digital Storage, Energy, Frequency, Fuel Economy, Plane Angle, Pressure, Speed, Temperature, Time, Volume)
 
