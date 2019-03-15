@@ -20,23 +20,23 @@ if selector == "l":
 # Conversion for length
 
   if unit1 == "cm" and unit2 == "m":
-    ans = float(num1)/100
+    ans = float(num1) / 100
   elif unit1 == "mm" and unit2 == "cm":
-    ans = float(num1)/10
+    ans = float(num1) / 10
   elif unit1 == "m" and unit2 == "cm":
-    ans = float(num1)*100
+    ans = float(num1) * 100
   elif unit1 == "cm" and unit2 == "mm":
-    ans = float(num1)*10
+    ans = float(num1) * 10
   elif unit1 == "mm" and unit2 == "m":
-    ans = float(num1)/1000
+    ans = float(num1) / 1000
   elif unit1 == "m" and unit2 == "mm":
-    ans = float(num1)*1000  
+    ans = float(num1) * 1000  
   elif unit1 == "km" and unit2 == "m":
-    ans = float(num1)*1000
+    ans = float(num1) * 1000
   elif unit1 == "m" and unit2 == "km":
-    ans = float(num1)/1000
+    ans = float(num1) / 1000
   elif unit1 == "mm" and unit2 == "km":
-    ans = float(num1)/1000000
+    ans = float(num1) / 1000000
   elif unit1 == unit2:
     ans = num1
 
