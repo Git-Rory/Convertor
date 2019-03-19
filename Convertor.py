@@ -52,7 +52,7 @@ elif unit2 == "km":
   print(str(ans) + " Kilometres")
 
 if selector == "w":
-  print("We can convert using the units; lbs, tn, g, kg, ug, mg")
+  print("We can convert using the units; lbs, tn, g, kg, ug, mg / imperial-ton, us-ton, st, oz")
   unit1 = input("Which unit would you like to convert from: ")
   unit2 = input("Which unit would you like to convert to: ")
   num1 = input("Enter your value: " )
@@ -103,6 +103,17 @@ if selector == "w":
     ans = float(num1) / 1000000000
   elif unit1 == "mg" and unit2 == "lbs":
     ans = float(num1) / 453592.37
+  elif unit1 == "lbs" and unit2 == "tn":
+    ans = float(num1) / 2204.623
+  elif unit1 == "lbs" and unit2 == "g":
+    ans = float(num1) * 453.592
+  elif unit1 == "lbs" and unit2 == "kg":
+    ans = float(num1) / 2.205
+  elif unit1 == "lbs" and unit2 == "ug":
+    ans = float(num1) * 453600000
+  elif unit1 == "lbs" and unit2 == "mg":
+    ans = float(num1) * 453592.37
+  elif unit1 == "imperial-ton" and unit2 == "":
   elif unit1 == unit2: 
     ans = num1
 
