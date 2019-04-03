@@ -48,7 +48,6 @@ Tee Attenuator Calculator
 
 - [ ] Microstrip Calculators\
 Differential Microstrip Impedance Calculator\
-Differential Microstrip Impedance Calculator\
 Embedded Microstrip Impedance Calculator\
 Microstrip Mitred Bend Calculator\
 Microstrip Width Calculator\
