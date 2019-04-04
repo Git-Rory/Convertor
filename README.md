@@ -11,23 +11,31 @@ Currently supports:
 - [ ] Update Mass Conversion (imperial ton, us ton, stone, ounce)
 - [ ] Update Length Conversion (micrometre, nanometre, mile, yard, foot, inch, nautical mile)
 
-- [ ] **More things to convert\
-⋅⋅*Area, Data Transfer Rate, Digital Storage, 
-⋅⋅*Energy, Frequency, Fuel Economy, Plane Angle,
-⋅⋅*Pressure, Speed,Temperature, Time, Volume,
+- [ ] **More things to convert**\
+Area, \
+Data Transfer Rate, \
+Digital Storage,\
+Energy, Frequency, \
+Fuel Economy, \
+Plane Angle,\
+Pressure, \
+Speed,\
+Temperature, \
+Time,\
+Volume,
 
-- [ ] **Radio conversion calculators\
-*dBm To Watt Calculator\
-*Frequency to Wavelength\
-*Noise Factor to Noise Figure Calculator\
-*Noise Figure to Noise Temperature Calculator\
-*Noise Temperature to Noise Figure Converter\
-*PPM to Hz Calculator\
-*SINAD to ENOB Calculator\
-*Watt To dBm Calculator\
-*Wavelength to Frequency
+- [ ] **Radio conversion calculators**\
+* dBm To Watt Calculator\
+* Frequency to Wavelength\
+* Noise Factor to Noise Figure Calculator\
+* Noise Figure to Noise Temperature Calculator\
+* Noise Temperature to Noise Figure Converter\
+* PPM to Hz Calculator\
+* SINAD to ENOB Calculator\
+* Watt To dBm Calculator\
+* Wavelength to Frequency
 
-- [ ] **Antenna Calculators\
+- [ ] **Antenna Calculators**\
 *Antenna Downtilt Angle Calculator\
 *Antenna Downtilt Coverage Calculator\
 *Antenna Near Field Distance Calculator\
@@ -40,7 +48,7 @@ Currently supports:
 *Parabolic Antenna Gain Calculator\
 *Whip Antenna Calculator
 
-- [ ] **Attenuator Calculators\
+- [ ] **Attenuator Calculators**\
 *Balanced Attenuator Calculator\
 *Bridged Tee Attenuator Calculator\
 *Pi Attenuator Calculator\
@@ -48,14 +56,14 @@ Currently supports:
 *RF Attenuator Calculators\
 *Tee Attenuator Calculator
 
-- [ ] **Microstrip Calculators\
+- [ ] **Microstrip Calculators**\
 *Differential Microstrip Impedance Calculator\
 *Embedded Microstrip Impedance Calculator\
 *Microstrip Mitred Bend Calculator\
 *Microstrip Width Calculator\
 *Transmission Line Mitred Bend Calculator
 
-- [ ] **Radar Calculators\
+- [ ] **Radar Calculators**\
 *Effective Antenna Aperture Calculator\
 *Maximum Unambiguous Range Calculator\
 *Pulse Repetition Frequency Calculator\
@@ -64,7 +72,7 @@ Currently supports:
 *RF Power Density\
 *Target Gain Factor Calculator
 
-- [ ] **RF Calculators\
+- [ ] **RF Calculators**\
 *Cascaded Noise Figure Calculator\
 *Coax Calculator\
 *Coaxial Cable Calculator\
@@ -101,7 +109,7 @@ Currently supports:
 *Wilkinson Power Divider Calculator\
 *Wye/Star to Delta Conversion Calculator
 
-- [ ] **VSWR, Return Loss and Reflection Coefficient Calculators\
+- [ ] **VSWR, Return Loss and Reflection Coefficient Calculators**\
 *Reflection Coefficient to Return Loss Calculator\
 *Reflection Coefficient to VSWR Calculator\
 *Return Loss to Reflection Coefficient Calculator\
@@ -110,7 +118,7 @@ Currently supports:
 *VSWR to Reflection Coefficient Calculator\
 *VSWR to Return Loss Calculator
 
-- [ ] **Waveguide Calculators\
+- [ ] **Waveguide Calculators**\
 *Cavity Resonance Frequencies\
 *Circular Waveguide Calculator\
 *Rectangular Waveguide Calculator
