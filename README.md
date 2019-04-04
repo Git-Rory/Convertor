@@ -1,5 +1,5 @@
 # Convertor
-A short python CLI script that converts units and soon to be every thing a Ham needs.\
+A short python CLI script that converts units and soon to be every thing a Ham needs.
 
 Currently supports:
 
