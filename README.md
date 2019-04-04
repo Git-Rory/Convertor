@@ -11,20 +11,20 @@ Currently supports:
 - [ ] Update Mass Conversion (imperial ton, us ton, stone, ounce)
 - [ ] Update Length Conversion (micrometre, nanometre, mile, yard, foot, inch, nautical mile)
 
-- [ ] **More things to convert**\
-* Area, \
-* Data Transfer Rate, \
-* Digital Storage,\
-* Energy, Frequency, \
-* Fuel Economy, \
-* Plane Angle,\
-* Pressure, \
-* Speed,\
-* Temperature, \
-* Time,\
+- [ ] **More things to convert**
+* Area,\
+* Data Transfer Rate\
+* Digital Storage\
+* Energy, Frequency\
+* Fuel Economy\
+* Plane Angle\
+* Pressure\
+* Speed\
+* Temperature\
+* Time\
 * Volume,
 
-- [ ] **Radio conversion calculators**\
+- [ ] **Radio conversion calculators**
 * dBm To Watt Calculator\
 * Frequency to Wavelength\
 * Noise Factor to Noise Figure Calculator\
