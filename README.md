@@ -1,5 +1,7 @@
 # Convertor
-A short python CLI script that converts units! Currently supports:
+A short python CLI script that converts units and soon to be every thing a Ham needs.\
+
+Currently supports:
 
 - [ ] Length - (mm, cm, m, km)
 - [ ] Weight - (lbs, tn, g, kg, ug, mg)
@@ -120,6 +122,7 @@ Rectangular Waveguide Calculator
 # Built with
 
 1) [IDLE 3.7.0](https://www.python.org/downloads/release/python-370/)
+2) [TKinter](https://wiki.python.org/moin/TkInter) (Not currently implemented)
 
 ## Authors
 
