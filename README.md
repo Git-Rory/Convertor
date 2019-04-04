@@ -12,9 +12,9 @@ Currently supports:
 - [ ] Update Length Conversion (micrometre, nanometre, mile, yard, foot, inch, nautical mile)
 
 - [ ] **More things to convert\
-*Area, Data Transfer Rate, Digital Storage, 
-*Energy, Frequency, Fuel Economy, Plane Angle,
-*Pressure, Speed,Temperature, Time, Volume,
+⋅⋅*Area, Data Transfer Rate, Digital Storage, 
+⋅⋅*Energy, Frequency, Fuel Economy, Plane Angle,
+⋅⋅*Pressure, Speed,Temperature, Time, Volume,
 
 - [ ] **Radio conversion calculators\
 *dBm To Watt Calculator\
