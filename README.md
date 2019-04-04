@@ -12,27 +12,27 @@ Currently supports:
 - [ ] Update Length Conversion (micrometre, nanometre, mile, yard, foot, inch, nautical mile)
 
 - [ ] **More things to convert**
-* Area,\
-* Data Transfer Rate\
-* Digital Storage\
-* Energy, Frequency\
-* Fuel Economy\
-* Plane Angle\
-* Pressure\
-* Speed\
-* Temperature\
-* Time\
+* Area,
+* Data Transfer Rate
+* Digital Storage
+* Energy, Frequency
+* Fuel Economy
+* Plane Angle
+* Pressure
+* Speed
+* Temperature
+* Time
 * Volume,
 
 - [ ] **Radio conversion calculators**
-* dBm To Watt Calculator\
-* Frequency to Wavelength\
-* Noise Factor to Noise Figure Calculator\
-* Noise Figure to Noise Temperature Calculator\
-* Noise Temperature to Noise Figure Converter\
-* PPM to Hz Calculator\
-* SINAD to ENOB Calculator\
-* Watt To dBm Calculator\
+* dBm To Watt Calculator
+* Frequency to Wavelength
+* Noise Factor to Noise Figure Calculator
+* Noise Figure to Noise Temperature Calculator
+* Noise Temperature to Noise Figure Converter
+* PPM to Hz Calculator
+* SINAD to ENOB Calculator
+* Watt To dBm Calculator
 * Wavelength to Frequency
 
 - [ ] **Antenna Calculators**\
