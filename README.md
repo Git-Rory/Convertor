@@ -131,6 +131,7 @@ Currently supports:
 
 1) [IDLE 3.7.0](https://www.python.org/downloads/release/python-370/)
 2) [TKinter](https://wiki.python.org/moin/TkInter) (Not currently implemented)
+3) [Sublime Text 3](https://www.sublimetext.com/3)
 
 ## Authors
 
