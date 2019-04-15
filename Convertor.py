@@ -534,11 +534,19 @@ def weightcalc(unit1, unit2, num1):
 	elif unit2 == "oz":
 	  print(str(ans) + " Ounces\n")
 	  
+# def radio_calculation_calculator():
+# def antenna_calculator():
+# def attenuator_calculator():
+# def microstrip_calculator():
+# def radar_calculator():
+# def rf_calculator():
+# def waveguide_calculator():
+
 #----------//Main\\----------#
 print("Welcome to my convertor")
 
 while True:
-	selector = input("Which category would you like to convert? we support any of these topics, just type the number shown to see all subjects within it > \n\n(1) Length\n(2) Weight\n(3) Radio conversion calculators\n(4) Antenna Calculators\n(5) Attenuator Calculators\n(6) Microstrip Calculators\n(7) Radar Calculators\n(8) RF Calculators\n(9) Waveguide Calculators\n")
+	selector = input("Which category would you like to convert? we support any of these topics, just type the number shown to see all subjects within it > \n\n(1) Length\n(2) Weight\n(3) Radio conversion calculators\n(4) Antenna Calculators\n(5) Attenuator Calculators\n(6) Microstrip Calculators\n(7) Radar Calculators\n(8) RF Calculators\n(9) Waveguide Calculators\n(0) Exit Programme")
 	print(selector)
 
 	if ((float(selector)) == (1)):
@@ -559,5 +567,7 @@ while True:
 		rf_calculator()
 	elif ((float(selector)) == (9)):
 		waveguide_calculator()
-
+	elif ((float(selector)) == (0)):
+		raise SystemExit
+		
 #----------//\\----------#
