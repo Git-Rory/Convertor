@@ -5,7 +5,7 @@ Currently supports:
 
 - [ ] Length - (km, m, cm, mm, um, nm, mi, yd, ft, in, nmi)
 - [ ] Weight - (lbs, tn, g, kg, ug, mg, imperial-ton, us-ton, st, oz)
-- [ ] Function modularity
+
 # Planned updates
 
 - [ ] **More things to convert**
