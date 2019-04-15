@@ -5,7 +5,7 @@ Currently supports:
 
 - [ ] Length - (mm, cm, m, km)
 - [ ] Weight - (lbs, tn, g, kg, ug, mg)
-
+- [ ] Function modularity
 # Planned updates
 
 - [ ] Update Mass Conversion (imperial ton, us ton, stone, ounce)
