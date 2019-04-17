@@ -1,16 +1,20 @@
 #----------//Variables\\----------#
 
 import tkinter
+import webbrowser
 
 selector = 0
 unit1 = 0
 unit2 = 0
 ans = 0
 num1 = 0
+# Speed of light
+c = 299792458
 
 #----------//Functions\\----------#
 
 def length():
+	
 	unit1 = 0
 	unit2 = 0
 	ans = 0
@@ -295,6 +299,7 @@ def lengthcalc(unit1, unit2, num1):
 	  print(str(ans) + " Nautical Miles\n")
 
 def weight():
+	
 	unit1 = 0
 	unit2 = 0
 	ans = 0
@@ -534,7 +539,47 @@ def weightcalc(unit1, unit2, num1):
 	elif unit2 == "oz":
 	  print(str(ans) + " Ounces\n")
 	  
-# def radio_calculation_calculator():
+def radio_calculation_calculator():
+	print("we got here")
+	selector = input("Which category would you like to convert? we support any of these topics, just type the number shown\n\n(1) dBm To Watt Calculator\n(2) Frequency to Wavelength\n(3) Noise Factor to Noise Figure Calculator\n(4) Noise Figure to Noise Temperature Calculator\n(5) Noise Temperature to Noise Figure Converter\n(6) PPM to Hz Calculator\n(7) SINAD to ENOB Calculator\n(8) Watt To dBm Calculator\n(9) Wavelength to Frequency\n(10)My Github\n(11) Exit Programme\n")
+	radio_calculation_calculatorcalc(selector)
+
+def radio_calculation_calculatorcalc(selector):
+	print(selector, "ree")
+	if selector == 1:
+		print("2")
+		input1 = input("enter dBm value to convert it to Watts")
+		ans = ((10**(float(input1)/10))/ 1000)
+		print("With a dBm value of", input, "dBm, your expected wattage would be", ans, "Watts")
+	elif selector == 2:
+		unit = input("What unit of frequency are you entering your input in?\n\n (1) Hz\n (2) kHz\n (3) MHz\n (4) GHz")
+		if unit == 1:
+			unit1 == "Hz"
+		if unit == 2:
+			unit1 == "kHz"
+		if unit == 3:
+			unit1 == "MHz"
+		if unit == 4:
+			unit1 == "GHz"
+
+		input1 = input("Please enter frequency in order to convert it to wavelength")
+
+		ans = ((299792458) / input1)
+		print("With a frequency of", input1, unit1, "This frequency's wavelength in air is", ans, "Metres")
+	#elif selector == 3:
+
+	#elif selector == 4:
+
+	#elif selector == 5:
+
+	#elif selector == 6:
+
+	#elif selector == 7:
+
+	#elif selector == 8:
+
+	#elif selector == 9:
+
 # def antenna_calculator():
 # def attenuator_calculator():
 # def microstrip_calculator():
@@ -543,10 +588,10 @@ def weightcalc(unit1, unit2, num1):
 # def waveguide_calculator():
 
 #----------//Main\\----------#
-print("Welcome to my convertor")
+print("Welcome to my convertor, please follow me on GitHub if it's useful! :)")
 
 while True:
-	selector = input("Which category would you like to convert? we support any of these topics, just type the number shown to see all subjects within it > \n\n(1) Length\n(2) Weight\n(3) Radio conversion calculators\n(4) Antenna Calculators\n(5) Attenuator Calculators\n(6) Microstrip Calculators\n(7) Radar Calculators\n(8) RF Calculators\n(9) Waveguide Calculators\n(0) Exit Programme")
+	selector = input("Which category would you like to convert? we support any of these topics, just type the number shown to see all subjects within it > \n\n(1) Length\n(2) Weight\n(3) Radio conversion calculators\n(4) Antenna Calculators\n(5) Attenuator Calculators\n(6) Microstrip Calculators\n(7) Radar Calculators\n(8) RF Calculators\n(9) Waveguide Calculators\n(10)My Github\n(11) Exit Programme\n")
 	print(selector)
 
 	if ((float(selector)) == (1)):
@@ -567,7 +612,9 @@ while True:
 		rf_calculator()
 	elif ((float(selector)) == (9)):
 		waveguide_calculator()
-	elif ((float(selector)) == (0)):
+	elif ((float(selector)) == (10)):
+		webbrowser.open("https://github.com/AxiomYT/")
+	elif ((float(selector)) == (11)):
 		raise SystemExit
-		
+
 #----------//\\----------#
