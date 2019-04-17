@@ -3,8 +3,30 @@ A Python CLI script that converts units and soon to be the only tool any good HA
 
 Currently supports:
 
-- [ ] Length - (km, m, cm, mm, um, nm, mi, yd, ft, in, nmi)
-- [ ] Weight - (lbs, tn, g, kg, ug, mg, imperial-ton, us-ton, st, oz)
+- [ ] Length
+* km, 
+* m, 
+* cm,
+* mm, 
+* um, 
+* nm, 
+* mi, 
+* yd, 
+* ft, 
+* in, 
+* nmi
+
+- [ ] Weight
+* lbs, 
+* tn, 
+* g, 
+* kg, 
+* ug, 
+* mg, 
+* imperial-ton, 
+* us-ton, 
+* st, 
+* oz
 
 # Planned updates
 
