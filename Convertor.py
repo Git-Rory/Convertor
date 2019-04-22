@@ -2,6 +2,7 @@
 
 import tkinter
 import webbrowser
+import math
 
 selector1 = 0
 selector = 0
@@ -558,19 +559,31 @@ def radio_calculation_calculatorcalc(selector1, c):
 		unit = input("What unit of frequency are you entering your input in?\n\n (1) Hz\n (2) kHz\n (3) MHz\n (4) GHz")
 		if unit == 1:
 			unit1 == "Hz"
+                        input1 = input("Please enter your frequency in", unit1)
+                        ans = ((c) / input1)
+                        print("With a frequency of", input1, unit1, "This frequency's wavelength in air is", ans, "Metres")
 		elif unit == 2:
 			unit1 == "kHz"
+			input1 = input("Please enter your frequency in", unit1)
+			ans = ((c) / (input1  * (10**3)))
+                        print("With a frequency of", input1, unit1, "This frequency's wavelength in air is", ans, "Metres")
 		elif unit == 3:
 			unit1 == "MHz"
+			input1 = input("Please enter your frequency in", unit1)
+			ans = ((c) / (input1  * (10**6)))
+                        print("With a frequency of", input1, unit1, "This frequency's wavelength in air is", ans, "Metres")
 		elif unit == 4:
 			unit1 == "GHz"
-
-		input1 = input("Please enter frequency in order to convert it to wavelength")
+			input1 = input("Please enter your frequency in", unit1)
+			ans = ((c) / (input1  * (10**9)))
+                        print("With a frequency of", input1, unit1, "This frequency's wavelength in air is", ans, "Metres")
 
 		ans = ((c) / input1)
 		print("With a frequency of", input1, unit1, "This frequency's wavelength in air is", ans, "Metres")
-	#elif selector == 3:
-
+	elif selector == 3:
+                value = input("Please enter your noise factor (0 to 1)")
+                ans = math.log10(value)
+                print("Your Calculated Noise Figure Value is ", ans, "dB")
 	#elif selector == 4:
 
 	#elif selector == 5:
